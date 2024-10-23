@@ -50,7 +50,7 @@ int boot_status_fails = 0;
 #if !defined(MCUBOOT_DIRECT_XIP) && !defined(MCUBOOT_RAM_LOAD)
 /**
  * Reads the status of a partially-completed swap, if any.  This is necessary
- * to recover in case the boot lodaer was reset in the middle of a swap
+ * to recover in case the boot loader was reset in the middle of a swap
  * operation.
  */
 int
