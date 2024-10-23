@@ -793,7 +793,7 @@ config MCUBOOT_BOOT_BANNER
 	    *** Using Zephyr OS build v3.6.0-2607-gd0be2010c31f ***
 
 config BOOT_BANNER_STRING
-		string "Boot banner string"
+		bool
         default "Using Zephyr OS build" if MCUBOOT_BOOT_BANNER
 
 config BOOT_DECOMPRESSION_SUPPORT
